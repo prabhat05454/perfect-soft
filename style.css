@@ -1,4 +1,59 @@
 
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #f2f2f2;
+            padding: 25px 25px;
+        }
+
+        nav {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            align-items:center;
+        
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #131212;
+            font-weight: medium;
+        
+        }
+        
+
+
+        nav a:hover {
+            color:#f2f2f2;  
+
+        }
+
+        h1 {
+            text-align:left;
+            color: darkblue;
+            margin-top:20px;
+        }
+            p {
+                font-size: 15px;
+              }
+            
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            gap:20px;
+            padding: 20px;
+        }
+        
+  
+     
+    </style>
+</head>
+
+
           /* body {
             font-family: Arial, sans-serif;
             margin: 0;
